@@ -82,9 +82,9 @@ async function main() {
   const getGroup = (name: string) => groups.find((g) => g.name === name)!;
 
   const allTeams = [
-    // GRUPO A
+    // GROUP A
     {
-      name: "México",
+      name: "Mexico",
       slug: "mexico",
       fifaCode: "MEX",
       groupId: getGroup("A").id,
@@ -93,8 +93,8 @@ async function main() {
       badgeUrl: `${CDN}/mex.png`,
     },
     {
-      name: "África do Sul",
-      slug: "africa-do-sul",
+      name: "South Africa",
+      slug: "south-africa",
       fifaCode: "RSA",
       groupId: getGroup("A").id,
       colorPrimary: "#007749",
@@ -102,8 +102,8 @@ async function main() {
       badgeUrl: `${CDN}/rsa.png`,
     },
     {
-      name: "Coreia do Sul",
-      slug: "coreia-do-sul",
+      name: "Korea Republic",
+      slug: "korea-republic",
       fifaCode: "KOR",
       groupId: getGroup("A").id,
       colorPrimary: "#CD2E3A",
@@ -111,8 +111,8 @@ async function main() {
       badgeUrl: `${CDN}/kor.png`,
     },
     {
-      name: "Tchéquia",
-      slug: "tchequia",
+      name: "Czechia",
+      slug: "czechia",
       fifaCode: "CZE",
       groupId: getGroup("A").id,
       colorPrimary: "#D7141A",
@@ -120,9 +120,9 @@ async function main() {
       badgeUrl: `${CDN}/cze.png`,
     },
 
-    // GRUPO B
+    // GROUP B
     {
-      name: "Canadá",
+      name: "Canada",
       slug: "canada",
       fifaCode: "CAN",
       groupId: getGroup("B").id,
@@ -131,8 +131,8 @@ async function main() {
       badgeUrl: `${CDN}/can.png`,
     },
     {
-      name: "Bósnia e Herzegovina",
-      slug: "bosnia-e-herzegovina",
+      name: "Bosnia And Herzegovina",
+      slug: "bosnia-and-herzegovina",
       fifaCode: "BIH",
       groupId: getGroup("B").id,
       colorPrimary: "#002395",
@@ -140,8 +140,8 @@ async function main() {
       badgeUrl: `${CDN}/bih.png`,
     },
     {
-      name: "Catar",
-      slug: "catar",
+      name: "Qatar",
+      slug: "qatar",
       fifaCode: "QAT",
       groupId: getGroup("B").id,
       colorPrimary: "#8D1B3D",
@@ -149,8 +149,8 @@ async function main() {
       badgeUrl: `${CDN}/qat.png`,
     },
     {
-      name: "Suíça",
-      slug: "suica",
+      name: "Switzerland",
+      slug: "switzerland",
       fifaCode: "SUI",
       groupId: getGroup("B").id,
       colorPrimary: "#FF0000",
@@ -158,10 +158,10 @@ async function main() {
       badgeUrl: `${CDN}/sui.png`,
     },
 
-    // GRUPO C
+    // GROUP C
     {
-      name: "Brasil",
-      slug: "brasil",
+      name: "Brazil",
+      slug: "brazil",
       fifaCode: "BRA",
       groupId: getGroup("C").id,
       colorPrimary: "#009739",
@@ -169,8 +169,8 @@ async function main() {
       badgeUrl: `${CDN}/bra.png`,
     },
     {
-      name: "Marrocos",
-      slug: "marrocos",
+      name: "Morocco",
+      slug: "morocco",
       fifaCode: "MAR",
       groupId: getGroup("C").id,
       colorPrimary: "#C1272D",
@@ -187,8 +187,8 @@ async function main() {
       badgeUrl: `${CDN}/hai.png`,
     },
     {
-      name: "Escócia",
-      slug: "escocia",
+      name: "Scotland",
+      slug: "scotland",
       fifaCode: "SCO",
       groupId: getGroup("C").id,
       colorPrimary: "#005EB8",
@@ -196,10 +196,10 @@ async function main() {
       badgeUrl: `${CDN}/sco.png`,
     },
 
-    // GRUPO D
+    // GROUP D
     {
-      name: "Estados Unidos",
-      slug: "estados-unidos",
+      name: "USA",
+      slug: "usa",
       fifaCode: "USA",
       groupId: getGroup("D").id,
       colorPrimary: "#002868",
@@ -207,8 +207,8 @@ async function main() {
       badgeUrl: `${CDN}/usa.png`,
     },
     {
-      name: "Paraguai",
-      slug: "paraguai",
+      name: "Paraguay",
+      slug: "paraguay",
       fifaCode: "PAR",
       groupId: getGroup("D").id,
       colorPrimary: "#D52B1E",
@@ -216,7 +216,7 @@ async function main() {
       badgeUrl: `${CDN}/par.png`,
     },
     {
-      name: "Austrália",
+      name: "Australia",
       slug: "australia",
       fifaCode: "AUS",
       groupId: getGroup("D").id,
@@ -225,8 +225,8 @@ async function main() {
       badgeUrl: `${CDN}/aus.png`,
     },
     {
-      name: "Turquia",
-      slug: "turquia",
+      name: "Türkiye",
+      slug: "turkiye",
       fifaCode: "TUR",
       groupId: getGroup("D").id,
       colorPrimary: "#E30A17",
@@ -234,10 +234,10 @@ async function main() {
       badgeUrl: `${CDN}/tur.png`,
     },
 
-    // GRUPO E
+    // GROUP E
     {
-      name: "Alemanha",
-      slug: "alemanha",
+      name: "Germany",
+      slug: "germany",
       fifaCode: "GER",
       groupId: getGroup("E").id,
       colorPrimary: "#000000",
@@ -245,7 +245,7 @@ async function main() {
       badgeUrl: `${CDN}/ger.png`,
     },
     {
-      name: "Curaçau",
+      name: "Curaçao",
       slug: "curacao",
       fifaCode: "CUW",
       groupId: getGroup("E").id,
@@ -254,8 +254,8 @@ async function main() {
       badgeUrl: `${CDN}/cuw.png`,
     },
     {
-      name: "Costa do Marfim",
-      slug: "costa-do-marfim",
+      name: "Côte D'Ivoire",
+      slug: "cote-divoire",
       fifaCode: "CIV",
       groupId: getGroup("E").id,
       colorPrimary: "#FF8200",
@@ -263,8 +263,8 @@ async function main() {
       badgeUrl: `${CDN}/civ.png`,
     },
     {
-      name: "Equador",
-      slug: "equador",
+      name: "Ecuador",
+      slug: "ecuador",
       fifaCode: "ECU",
       groupId: getGroup("E").id,
       colorPrimary: "#FFD100",
@@ -272,10 +272,10 @@ async function main() {
       badgeUrl: `${CDN}/ecu.png`,
     },
 
-    // GRUPO F
+    // GROUP F
     {
-      name: "Holanda",
-      slug: "holanda",
+      name: "Netherlands",
+      slug: "netherlands",
       fifaCode: "NED",
       groupId: getGroup("F").id,
       colorPrimary: "#FF6B00",
@@ -283,8 +283,8 @@ async function main() {
       badgeUrl: `${CDN}/ned.png`,
     },
     {
-      name: "Japão",
-      slug: "japao",
+      name: "Japan",
+      slug: "japan",
       fifaCode: "JPN",
       groupId: getGroup("F").id,
       colorPrimary: "#BC002D",
@@ -292,8 +292,8 @@ async function main() {
       badgeUrl: `${CDN}/jpn.png`,
     },
     {
-      name: "Suécia",
-      slug: "suecia",
+      name: "Sweden",
+      slug: "sweden",
       fifaCode: "SWE",
       groupId: getGroup("F").id,
       colorPrimary: "#006AA7",
@@ -301,7 +301,7 @@ async function main() {
       badgeUrl: `${CDN}/swe.png`,
     },
     {
-      name: "Tunísia",
+      name: "Tunisia",
       slug: "tunisia",
       fifaCode: "TUN",
       groupId: getGroup("F").id,
@@ -310,10 +310,10 @@ async function main() {
       badgeUrl: `${CDN}/tun.png`,
     },
 
-    // GRUPO G
+    // GROUP G
     {
-      name: "Bélgica",
-      slug: "belgica",
+      name: "Belgium",
+      slug: "belgium",
       fifaCode: "BEL",
       groupId: getGroup("G").id,
       colorPrimary: "#000000",
@@ -321,8 +321,8 @@ async function main() {
       badgeUrl: `${CDN}/bel.png`,
     },
     {
-      name: "Egito",
-      slug: "egito",
+      name: "Egypt",
+      slug: "egypt",
       fifaCode: "EGY",
       groupId: getGroup("G").id,
       colorPrimary: "#C8102E",
@@ -330,8 +330,8 @@ async function main() {
       badgeUrl: `${CDN}/egy.png`,
     },
     {
-      name: "Irã",
-      slug: "ira",
+      name: "IR Iran",
+      slug: "ir-iran",
       fifaCode: "IRN",
       groupId: getGroup("G").id,
       colorPrimary: "#239F40",
@@ -339,8 +339,8 @@ async function main() {
       badgeUrl: `${CDN}/irn.png`,
     },
     {
-      name: "Nova Zelândia",
-      slug: "nova-zelandia",
+      name: "New Zealand",
+      slug: "new-zealand",
       fifaCode: "NZL",
       groupId: getGroup("G").id,
       colorPrimary: "#000000",
@@ -348,10 +348,10 @@ async function main() {
       badgeUrl: `${CDN}/nzl.png`,
     },
 
-    // GRUPO H
+    // GROUP H
     {
-      name: "Espanha",
-      slug: "espanha",
+      name: "Spain",
+      slug: "spain",
       fifaCode: "ESP",
       groupId: getGroup("H").id,
       colorPrimary: "#AA151B",
@@ -368,8 +368,8 @@ async function main() {
       badgeUrl: `${CDN}/cpv.png`,
     },
     {
-      name: "Arábia Saudita",
-      slug: "arabia-saudita",
+      name: "Saudi Arabia",
+      slug: "saudi-arabia",
       fifaCode: "KSA",
       groupId: getGroup("H").id,
       colorPrimary: "#006C35",
@@ -377,8 +377,8 @@ async function main() {
       badgeUrl: `${CDN}/ksa.png`,
     },
     {
-      name: "Uruguai",
-      slug: "uruguai",
+      name: "Uruguay",
+      slug: "uruguay",
       fifaCode: "URU",
       groupId: getGroup("H").id,
       colorPrimary: "#0038A8",
@@ -386,10 +386,10 @@ async function main() {
       badgeUrl: `${CDN}/uru.png`,
     },
 
-    // GRUPO I
+    // GROUP I
     {
-      name: "França",
-      slug: "franca",
+      name: "France",
+      slug: "france",
       fifaCode: "FRA",
       groupId: getGroup("I").id,
       colorPrimary: "#002395",
@@ -406,8 +406,8 @@ async function main() {
       badgeUrl: `${CDN}/sen.png`,
     },
     {
-      name: "Iraque",
-      slug: "iraque",
+      name: "Iraq",
+      slug: "iraq",
       fifaCode: "IRQ",
       groupId: getGroup("I").id,
       colorPrimary: "#007A3D",
@@ -415,8 +415,8 @@ async function main() {
       badgeUrl: `${CDN}/irq.png`,
     },
     {
-      name: "Noruega",
-      slug: "noruega",
+      name: "Norway",
+      slug: "norway",
       fifaCode: "NOR",
       groupId: getGroup("I").id,
       colorPrimary: "#EF2B2D",
@@ -424,7 +424,7 @@ async function main() {
       badgeUrl: `${CDN}/nor.png`,
     },
 
-    // GRUPO J
+    // GROUP J
     {
       name: "Argentina",
       slug: "argentina",
@@ -435,8 +435,8 @@ async function main() {
       badgeUrl: `${CDN}/arg.png`,
     },
     {
-      name: "Argélia",
-      slug: "argelia",
+      name: "Algeria",
+      slug: "algeria",
       fifaCode: "ALG",
       groupId: getGroup("J").id,
       colorPrimary: "#006233",
@@ -444,7 +444,7 @@ async function main() {
       badgeUrl: `${CDN}/alg.png`,
     },
     {
-      name: "Áustria",
+      name: "Austria",
       slug: "austria",
       fifaCode: "AUT",
       groupId: getGroup("J").id,
@@ -453,8 +453,8 @@ async function main() {
       badgeUrl: `${CDN}/aut.png`,
     },
     {
-      name: "Jordânia",
-      slug: "jordania",
+      name: "Jordan",
+      slug: "jordan",
       fifaCode: "JOR",
       groupId: getGroup("J").id,
       colorPrimary: "#007A3D",
@@ -462,7 +462,7 @@ async function main() {
       badgeUrl: `${CDN}/jor.png`,
     },
 
-    // GRUPO K
+    // GROUP K
     {
       name: "Portugal",
       slug: "portugal",
@@ -473,8 +473,8 @@ async function main() {
       badgeUrl: `${CDN}/por.png`,
     },
     {
-      name: "RD Congo",
-      slug: "rd-congo",
+      name: "Congo DR",
+      slug: "congo-dr",
       fifaCode: "COD",
       groupId: getGroup("K").id,
       colorPrimary: "#007FFF",
@@ -482,8 +482,8 @@ async function main() {
       badgeUrl: `${CDN}/cod.png`,
     },
     {
-      name: "Uzbequistão",
-      slug: "uzbequistao",
+      name: "Uzbekistan",
+      slug: "uzbekistan",
       fifaCode: "UZB",
       groupId: getGroup("K").id,
       colorPrimary: "#1EB53A",
@@ -491,7 +491,7 @@ async function main() {
       badgeUrl: `${CDN}/uzb.png`,
     },
     {
-      name: "Colômbia",
+      name: "Colombia",
       slug: "colombia",
       fifaCode: "COL",
       groupId: getGroup("K").id,
@@ -500,10 +500,10 @@ async function main() {
       badgeUrl: `${CDN}/col.png`,
     },
 
-    // GRUPO L
+    // GROUP L
     {
-      name: "Inglaterra",
-      slug: "inglaterra",
+      name: "England",
+      slug: "england",
       fifaCode: "ENG",
       groupId: getGroup("L").id,
       colorPrimary: "#FFFFFF",
@@ -511,8 +511,8 @@ async function main() {
       badgeUrl: `${CDN}/eng.png`,
     },
     {
-      name: "Croácia",
-      slug: "croacia",
+      name: "Croatia",
+      slug: "croatia",
       fifaCode: "CRO",
       groupId: getGroup("L").id,
       colorPrimary: "#FF0000",
@@ -520,8 +520,8 @@ async function main() {
       badgeUrl: `${CDN}/cro.png`,
     },
     {
-      name: "Gana",
-      slug: "gana",
+      name: "Ghana",
+      slug: "ghana",
       fifaCode: "GHA",
       groupId: getGroup("L").id,
       colorPrimary: "#006B3F",
@@ -529,7 +529,7 @@ async function main() {
       badgeUrl: `${CDN}/gha.png`,
     },
     {
-      name: "Panamá",
+      name: "Panama",
       slug: "panama",
       fifaCode: "PAN",
       groupId: getGroup("L").id,
