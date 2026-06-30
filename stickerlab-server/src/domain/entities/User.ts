@@ -1,3 +1,5 @@
+import { UserSticker } from "./UserSticker";
+
 export interface User {
   id: string;
   email: string;
@@ -6,5 +8,5 @@ export interface User {
   role: string;
   createdAt: Date;
   updatedAt: Date;
-  userStickers  UserSticker[]
+  userStickers: UserSticker[];
 }
